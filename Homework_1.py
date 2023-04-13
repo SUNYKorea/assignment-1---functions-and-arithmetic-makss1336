@@ -1,8 +1,14 @@
 # Name: Maksim Galkin
 # SBUID: 115341166
-
+##################### SCORE ######################
+#######  Score:  3/10
+#################################################
 # Remove the ellipses (...) when writing your solutions.
-
+#### your output
+# Enter temperature in fahrenheit: 44
+# Sweater -> correct
+# The area of the triangle is : 32.5 , its perimeter is : 27.889011005163916 - >wrong
+# The area of the polygon is : 5.160976731179886  - >wrong
 # ---------------------------- Exercise I ---------------------------------------
 # ----------------- Convert Fahrenheit to Celsius -------------------------------
 # TODO: Complete the implementation of fahrenheit2celsius () and what_to_wear(). 
@@ -37,7 +43,7 @@ def shoelace_triangle_area(x1, y1, x2, y2, x3, y3):
     return area
 
 def euclidean_distance(x1, y1, x2, y2):
-    distance = ((x1-y1)**2 + (y1 - y2)**2)**0.5
+    distance = ((x1-y1)**2 + (y1 - y2)**2)**0.5 # you made a mistake here--> instead of x1-y1, it should be x1-x2
     return distance
 
 def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
