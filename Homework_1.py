@@ -1,7 +1,8 @@
 # Name: Maksim Galkin
 # SBUID: 115341166
 ##################### SCORE ######################
-#######  Score:  3/10
+#######  Score:  7/10
+
 #################################################
 # Remove the ellipses (...) when writing your solutions.
 #### your output
